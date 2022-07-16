@@ -1,5 +1,41 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-/*# sourceMappingURL=style.css.map */
+
+#todolist {
+  background-color: #ffc2c2;
+  height: auto;
+  min-height: 100vh;
+}
+#todolist .box {
+  flex-direction: column;
+}
+#todolist .box h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#todolist .box input {
+  width: 300px;
+  border: 2px solid #ff6600;
+  margin: 15px 0;
+}
+#todolist .box .btn {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+#todolist .box .btn:hover {
+  background-color: #ff6600;
+  cursor: pointer;
+}
+#todolist .box .content {
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+#todolist .box .content h1 {
+  font-size: 20px;
+  margin: 5px;
+  border: 2px solid #000000;
+}/*# sourceMappingURL=style.css.map */

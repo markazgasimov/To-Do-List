@@ -17,47 +17,36 @@ $(document).ready(function () {
 //     func($('input').val());
 // });
 // });
-$(".btn").click(function (e) {
-    e.preventDefault()
-    function myel(myclass = "") {
-        if (!$("input").val().trim() == '') {
-            let vall = $("input").val()
-                , newH3 = $('<h3> </h3>')
-                , newDiv = $('<div class="line" > </div>')
-                , bigDiv = $(`<div ${myclass} > </div>`)
-            $(newH3).append(vall)
-            $(newDiv).append(newH3)
-            $(bigDiv).append(newDiv)
-            return bigDiv
+
+$('.btn').click(function (e) {
+    e.preventDefault();
+    if (!$.trim($('input').val()) == '') {
+        let a = b => {
+            for (let i = 0; i < b; i++) { $('.minibox').append(`<h3>${b}</h3>`) };
         }
-        else {
-            return
-        } 
+        let d = f => Number(f) ? a(f) : $('.minibox').append(`<h3>${f}</h3>`);
+        d($('input').val());
     }
-    $(".content").append(myel())
-    // $(".content").append(myel('class="end"'))
-    $("input").val("")
-    // document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
-    // document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
+    $('input').val('') 
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

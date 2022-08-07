@@ -33,7 +33,7 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
 }
-#todolist .box .content h1 {
+#todolist .box .content h2 {
   font-size: 20px;
   margin: 5px;
   border: 2px solid #000000;

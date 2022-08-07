@@ -20,11 +20,11 @@ body {
   margin: 15px 0;
 }
 #todolist .box .btn {
-  background-color: #ffffff;
+  background-color: #ff6600;
   border: 1px solid #000000;
 }
 #todolist .box .btn:hover {
-  background-color: #ff6600;
+  background-color: #ffffff;
   cursor: pointer;
 }
 #todolist .box .content {
@@ -32,9 +32,9 @@ body {
   margin-top: 10px;
   border-radius: 10px;
   background-color: #ffffff;
+  font-size: 25px;
 }
 #todolist .box .content h2 {
-  font-size: 20px;
   margin: 5px;
   border: 2px solid #000000;
 }/*# sourceMappingURL=style.css.map */

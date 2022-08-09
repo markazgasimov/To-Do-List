@@ -6,9 +6,9 @@ $('.btn').click(function (e) {
     if (!$.trim($('input').val()) == '') {
         let a = b => {
             for (let i = 0; i < b; i++) { $('.content').append(`<h2>${b}</h2>`) };
-        }
-        let d = f => Number(f) ? a(f) : $('.content').append(`<h2>${f}</h2>`);
-        d($('input').val());
+        } 
+        let c = d => Number(d) ? a(d) : $('.content').append(`<h2>${d}</h2>`);
+        c($('input').val());
     }else{
         return
     }
@@ -16,7 +16,6 @@ $('.btn').click(function (e) {
 })
 
 });
-
 
 
 

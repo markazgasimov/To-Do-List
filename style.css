@@ -33,8 +33,9 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
   font-size: 25px;
+  border: 1px solid #ff6600;
+  min-height: 400px;
 }
 #todolist .box .content h2 {
   margin: 5px;
-  border: 2px solid #000000;
 }/*# sourceMappingURL=style.css.map */
